@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero"
+              ><h1><span>Artificial</span> Intelligence <span></span>!</h1></a
+            >
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services" data-after="Service">Types</a></li>
+              <li>
+                <a href="#projects" data-after="Neural">Neural Networks</a>
+              </li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Hero Section  -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello,Guys <span></span></h1>
+          <h1>Let's Start <span></span></h1>
+          <h1>Learning <span></span></h1>
+          <a href="#projects" type="button" class="cta">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Service Section -->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title">Cate<span>go</span>ries</h1>
+          <p>
+            Artificial intelligence (AI) refers to the simulation of human
+            intelligence in machines that are programmed to think like humans
+            and mimic their actions. The term may also be applied to any machine
+            that exhibits traits associated with a human mind such as learning
+            and problem-solving.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>Machine Learning</h2>
+            <p>
+              Machine Learning is more than just a buzzword these days. It is a
+              leap forward in technology, demonstrating how computers can learn
+              from data. Machine Learning can solve a plethora of problems, and
+              it is all based on data and the use of algorithms. This pathway
+              introduces fundamental cloud computing and basic Machine Learning
+              concepts. You will examine the basic Machine Learning ecosystem,
+              and explore the learning process. Additionally, you will review
+              the required competencies needed in the field of Machine Learning.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>Deep Learning</h2>
+            <p>
+              Deep learning (also known as deep structured learning) is part of
+              a broader family of machine learning methods based on artificial
+              neural networks with representation learning. Learning can be
+              supervised, semi-supervised or unsupervised.Deep learning
+              architectures such as deep neural networks, deep belief networks,
+              recurrent neural networks and convolutional neural networks have
+              been applied to fields including computer vision, speech
+              recognition, natural language processing etc.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>Reinforcement Learning</h2>
+            <p>
+              Reinforcement learning (RL) is an area of machine learning
+              concerned with how software agents ought to take actions in an
+              environment in order to maximize the notion of cumulative reward.
+              Reinforcement learning is one of three basic machine learning
+              paradigms.Reinforcement learning differs from supervised learning
+              in not needing labelled input/output pairs be presented, and in
+              not needing sub-optimal actions to be explicitly corrected..
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Neural <span>Network</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Recurrent Neural Network</h1>
+              <h2>RNN</h2>
+              <p>
+                Recurrent neural networks (RNNs) are a variation to feed-forward
+                (FF) networks. In this type, each of the neurons in hidden
+                layers receives an input with a specific delay in time. We use
+                this type of neural network where we need to access previous
+                information in current iterations. For example, when we are
+                trying to predict the next word in a sentence, we need to know
+                the previously used words first. RNNs can process inputs and
+                share any lengths and weights across time. The model size does
+                not increase with the size of the input, and the computations in
+                this model take into account the historical information.
+                However, the problem with this neural network is the slow
+                computational speed. Moreover, it cannot consider any future
+                input for the current state. It cannot remember info from a long
+                time ago.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/rnn.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Convolution Neural Network</h1>
+              <h2>CNN</h2>
+              <p>
+                Convolutional Neural Networks are neural networks used primarily
+                for classification of images, clustering of images and object
+                recognition. DNNs enable unsupervised construction of
+                hierarchical image representations. DNNs are used to add much
+                more complex features to it so that it can perform the task with
+                better accuracy.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/cnn.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Long Short Term Memory</h1>
+              <h2>LSTM</h2>
+              <p>
+                LSTM networks introduce a memory cell. They can process data
+                with memory gaps. Above, we can notice that we can consider time
+                delay in RNNs, but if our RNN fails when we have a large number
+                of relevant data, and we want to find out relevant data from it,
+                then LSTMs is the way to go. Also, RNNs cannot remember data
+                from a long time ago, in contrast to LSTMs.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/lstm.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Boltzmann Machine</h1>
+              <h2>BM</h2>
+              <p>
+                A Boltzmann machine network involves learning a probability
+                distribution from an original dataset and using it to make
+                inference about unseen data. In BMs, there are input nodes and
+                hidden nodes, as soon as all our hidden nodes change its state,
+                our input nodes transform into output nodes. For instance:
+                Suppose we work in a nuclear power plant, where safety must be
+                the number one priority. Our job is to ensure that all the
+                components in the powerplant are safe to use, there will be
+                states associated with each component, using booleans for
+                simplicity 1 for usable and 0 for unusable. However, there will
+                also be some components for which it will be impossible for us
+                to measure the states regularly.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/bm.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Generative Adversarial Network</h1>
+              <h2>GAN</h2>
+              <p>
+                Given training data, GANs learn to generate new data with the
+                same statistics as the training data. For example, if we train
+                our GAN model on photographs, then a trained model will be able
+                to generate new photographs that look authentic to the human
+                eye. The objective of GANs is to distinguish between real and
+                synthetic results so that it can generate more authentic
+                results.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/gan.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>061 55555</h2>
+              <h2>9800000000</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>shovakuikel1@gmail.com</h2>
+              <h2>73bct642@wrc.edu.np</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Pokhara,Nepal</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>S</span>hova <span>Kuikel</span></h1>
+        </div>
+        <h2>Happy Learning!!</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="#"
+              ><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="#"
+              ><img src="https://img.icons8.com/bubbles/100/000000/behance.png"
+            /></a>
+          </div>
+        </div>
+        <p>Copyright © 2020 Shova Kuikel. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+  </body>
+</html>
